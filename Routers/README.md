@@ -1,8 +1,4 @@
-# israeli_cars_with_handicapped_parking_tags
-An API for Israeli vehicles with handicapped parking permit
-
-# Helpful Documentation
-Dataset page on data.gov.il:
+Dataset page in data.gov.il:
 https://data.gov.il/dataset/rechev-tag-nachim
 
 Latest resource page (as of 13/6/21):

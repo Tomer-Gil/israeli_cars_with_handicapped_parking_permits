@@ -1,0 +1,23 @@
+{
+  "name": "israeli_cars_with_handicapped_parking_tags",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomer-g200/israeli_cars_with_handicapped_parking_tags.git"
+  },
+  "author": "Tomer Gil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomer-g200/israeli_cars_with_handicapped_parking_tags/issues"
+  },
+  "homepage": "https://github.com/tomer-g200/israeli_cars_with_handicapped_parking_tags#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  }
+}
