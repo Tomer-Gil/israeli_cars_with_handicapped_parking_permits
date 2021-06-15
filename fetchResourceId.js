@@ -77,16 +77,16 @@ if(require.main === module) {
         input: process.stdin,
         output: process.stdout
     });
-    new Promise(function(resolve, reject) {
-        rl.question("What is the dataset name? ", function(answer) {
-            rl.close();
-            resolve(answer);
+    (async function() {
+        const datasetName = await new Promise(function(resolve, reject) {
+            rl.question("What is the dataset name? ", function(answer) {
+                rl.close();
+                resolve(answer);
+            });
         });
-    }).then(async function(success) {
-        const datasetName = success;
         const resourceId = await fetchResourceId(datasetName);
         console.log(resourceId);
-    });
+    })();
 } else {
     module.exports = fetchResourceId;
 }
